@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "anironcregular";
+  src: url("fonts/aniron-webfont.woff2") format("woff2"), url("fonts/aniron-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "party_businessregular";
+  src: url("fonts/partybusiness-webfont.woff2") format("woff2"), url("fonts/partybusiness-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "anironcregular", Arial, serif;
+  font-size: calc(1rem + 1vw);
+  background-color: #fffffc;
+  background-image: url("https://www.transparenttextures.com/patterns/exclusive-paper.png");
+}
+
+h2 {
+  font-size: calc(15px + 1vw);
+  margin: 4vw auto;
+}
+
+.row {
+  margin: 25px auto;
+}
+
+.navbar.navbar-expand-lg {
+  background-color: #FF7700;
+}
+.navbar.navbar-expand-lg .nav-link {
+  color: white;
+  font-size: 17px;
+}
+.navbar.navbar-expand-lg .nav-link:hover {
+  color: white;
+  text-decoration: underline white;
+}
+.navbar.navbar-expand-lg .navbar-nav, .navbar.navbar-expand-lg .nav-item {
+  margin-left: auto;
+}
+.navbar.navbar-expand-lg .fa-bars {
+  color: white;
+}
+@media (min-width: 992px) {
+  .navbar.navbar-expand-lg .nav-item:not(:last-of-type) {
+    border-right: 1px solid white;
+  }
+}
+
+section {
+  color: #2B2B2B;
+  padding: 15px;
+}
+
+footer.row {
+  background-color: #FF7700;
+  margin: 0;
+  font-family: party_businessregular, Arial, serif;
+}
+footer.row ul {
+  list-style-type: none;
+}
+footer.row a {
+  text-decoration: none;
+  color: white;
+}
+
+.surrounded-title:before, .surrounded-title:after {
+  content: "";
+  display: block;
+  margin: 0 10px;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  vertical-align: -50%;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 0.9px 0.9px 0.9px #cc5f00, inset 0.9px 0.9px 0.9px #cc5f00;
+  border: 4.0909090909px solid #FF7700;
+}
+
+.one-ring:before {
+  content: "";
+  display: block;
+  margin: 0 10px;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  vertical-align: -50%;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 3px 3px 3px #cccc00, inset 3px 3px 3px #cccc00;
+  border: 13.6363636364px solid yellow;
+}
+
+.chained-ring:nth-of-type(1) {
+  border-radius: 50%;
+  height: 46.6666666667px;
+  width: 46.6666666667px;
+  vertical-align: -50%;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 0.9333333333px 0.9333333333px 0.9333333333px #4d4d4d, inset 0.9333333333px 0.9333333333px 0.9333333333px #4d4d4d;
+  border: 4.2424242424px solid #666666;
+  margin-right: -18.375px;
+}
+
+.chained-ring:nth-of-type(2) {
+  border-radius: 50%;
+  height: 58.3333333333px;
+  width: 58.3333333333px;
+  vertical-align: -50%;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 1.1666666667px 1.1666666667px 1.1666666667px #4d4d4d, inset 1.1666666667px 1.1666666667px 1.1666666667px #4d4d4d;
+  border: 5.303030303px solid #666666;
+  margin-right: -24.5px;
+}
+
+.chained-ring:nth-of-type(3) {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  vertical-align: -50%;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 1.4px 1.4px 1.4px #4d4d4d, inset 1.4px 1.4px 1.4px #4d4d4d;
+  border: 6.3636363636px solid #666666;
+  margin-right: -30.625px;
+}
+
+.chained-ring:nth-of-type(4) {
+  border-radius: 50%;
+  height: 81.6666666667px;
+  width: 81.6666666667px;
+  vertical-align: -50%;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 1.6333333333px 1.6333333333px 1.6333333333px #4d4d4d, inset 1.6333333333px 1.6333333333px 1.6333333333px #4d4d4d;
+  border: 7.4242424242px solid #666666;
+  margin-right: -36.75px;
+}
+
+.chained-ring:nth-of-type(5) {
+  border-radius: 50%;
+  height: 93.3333333333px;
+  width: 93.3333333333px;
+  vertical-align: -50%;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 1.8666666667px 1.8666666667px 1.8666666667px #4d4d4d, inset 1.8666666667px 1.8666666667px 1.8666666667px #4d4d4d;
+  border: 8.4848484848px solid #666666;
+  margin-right: -42.875px;
+}
+
+.chained-ring:nth-of-type(6) {
+  border-radius: 50%;
+  height: 105px;
+  width: 105px;
+  vertical-align: -50%;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 2.1px 2.1px 2.1px #4d4d4d, inset 2.1px 2.1px 2.1px #4d4d4d;
+  border: 9.5454545455px solid #666666;
+  margin-right: -49px;
+}
